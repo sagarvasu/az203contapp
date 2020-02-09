@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'I am running inside the Container!' });
+  res.render('index', { title: 'I am running inside the AKS!' });
 });
 
 module.exports = router;
